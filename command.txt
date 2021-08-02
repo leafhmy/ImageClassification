@@ -1,0 +1,8 @@
+
+python train.py --batch_size 64 --anno pee --data_dir "/home/zhongyuning/HMY_PROS/Pee/dataset/" \
+--model_name effcientnet_b0 --num_cls 11 \
+--resume "/home/zhongyuning/HMY_PROS/ImgCls/checkpoints/Jul_12_20_13_52_2021/effcientnet_b0_epoch100_92.277228_0.2197.pth"\
+--lr 5e-7
+
+python test.py --batch_size 64 --data_dir "/home/zhongyuning/HMY_PROS/Pee/dataset/"
+
